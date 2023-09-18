@@ -1,0 +1,27 @@
+.navbar {
+  background-color: #dbeafe;
+  display: flex;
+  align-items: center;
+  height: 16vh;
+  width: 95%;
+}
+
+.navLogo {
+  width: 50px;
+  padding: 10px;
+  margin-right: 5px;
+}
+.nav-heading {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Bree Serif';
+}
+@media screen and (min-width: 768px) {
+  .navLogo {
+    width: 80px;
+    padding-left: 15px;
+  }
+  .nav-heading {
+    font-size: 32px;
+  }
+}
